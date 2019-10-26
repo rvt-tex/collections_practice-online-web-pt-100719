@@ -45,7 +45,7 @@ end
 def add_s(string)
  #.each_with_index + .collect
  string = ["hand","feet", "knee", "table"]
-  string[0,2,3].each_with_index.collect{|element, index| }
+  string[0,2,].each_with_index.collect{|element, index| }
   puts "#{string}s"
   
 end 
