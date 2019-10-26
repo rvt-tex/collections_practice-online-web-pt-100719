@@ -37,7 +37,12 @@ end
 
 def sum_array(numbers)
   #inject
-  
+  new_array = []
+  numbers.each do |number| 
+    new_array << number + number
+  end
+  return new_array
+
 end 
 
 def add_s(string)
