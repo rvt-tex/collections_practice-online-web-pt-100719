@@ -37,17 +37,16 @@ end
 
 def sum_array(numbers)
   #inject
-  #numbers = [11,4,7,8,9,100,134]
- 
-  #sum = 0 
-  #numbers.each { |a| sum += a }
+  #numbers.each { |a| sum += a 
+  
   numbers.inject(0) { |sum, x| sum + x }
-
 end 
 
 def add_s(string)
-  #.each_with_index + .collect
-  # [1,2].each_with_index.collect{|element, index| }
+  .each_with_index + .collect
+  [1,2].each_with_index.collect{|element, index| }
+  
+  
 end 
   
 
