@@ -42,7 +42,6 @@ def sum_array(numbers)
   #sum = 0 
   #numbers.each { |a| sum += a }
   numbers.inject(0) { |sum, x| sum + x }
-  end
 
 end 
 
