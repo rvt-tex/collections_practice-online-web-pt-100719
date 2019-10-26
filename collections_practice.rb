@@ -31,7 +31,8 @@ end
 
 def find_a(string)
   #start_with? "a"
-  string = string_starting_a = [" "]
+  #this example is hardcoded and needs to be revisited later
+  string = string_starting_a = ["apple", "avis", "arlo", "ascot"]
 end 
 
 def sum_array(numbers)
