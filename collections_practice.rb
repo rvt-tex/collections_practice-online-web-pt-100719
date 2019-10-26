@@ -37,13 +37,12 @@ end
 
 def sum_array(numbers)
   #inject
-  numbers = [11,4,7,8,9,100,134]
-  new_array = []
+  #numbers = [11,4,7,8,9,100,134]
+ 
   #sum = 0 
   #numbers.each { |a| sum += a }
-    new_array << number + number
+  numbers.inject(0) { |sum, x| sum + x }
   end
-  return new_array
 
 end 
 
