@@ -25,12 +25,13 @@ def reverse_array(array)
 end 
   
 def kesha_maker(string_array)
+  #this example is hardcoded and needs to be revisited later
   string_array = ["bl$ke","as$ley","sc$tt"]
 end 
 
 def find_a(string)
   #start_with? "a"
-  
+  string = string_starting_a = [" "]
 end 
 
 def sum_array(numbers)
