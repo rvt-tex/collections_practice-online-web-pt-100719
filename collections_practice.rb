@@ -39,8 +39,8 @@ def sum_array(numbers)
   #inject
   numbers = [11,4,7,8,9,100,134]
   new_array = []
-  sum = 0 
-  numbers.each { |a| sum += a }
+  #sum = 0 
+  #numbers.each { |a| sum += a }
     new_array << number + number
   end
   return new_array
