@@ -43,8 +43,8 @@ def sum_array(numbers)
 end 
 
 def add_s(string)
-  .each_with_index + .collect
-  [1,2].each_with_index.collect{|element, index| }
+ #.each_with_index + .collect
+  string[1,2].each_with_index.collect{|element, index| }
   
   
 end 
